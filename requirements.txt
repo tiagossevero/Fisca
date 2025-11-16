@@ -1,0 +1,33 @@
+# ================================================================================
+# FISCA - Sistema de Análise de Fiscalizações
+# Arquivo de Dependências Python
+# ================================================================================
+
+# Framework Web
+streamlit>=1.28.0
+
+# Manipulação de Dados
+pandas>=1.5.0
+numpy>=1.24.0
+
+# Visualização
+plotly>=5.17.0
+
+# Banco de Dados
+sqlalchemy>=2.0.0
+impyla>=0.18.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+
+# Utilidades
+python-dateutil>=2.8.2
+pytz>=2023.3
+
+# SSL/Segurança (geralmente já incluído no Python, mas explícito)
+certifi>=2023.7.22
+
+# Opcional - Jupyter (para notebooks)
+jupyter>=1.0.0
+ipykernel>=6.25.0
+notebook>=7.0.0

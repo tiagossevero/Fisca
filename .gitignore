@@ -1,0 +1,94 @@
+# ================================================================================
+# FISCA - Sistema de Análise de Fiscalizações
+# Arquivo .gitignore
+# ================================================================================
+
+# Credenciais e Segredos
+.streamlit/secrets.toml
+secrets.toml
+*.key
+*.pem
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Ambientes Virtuais
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Dados Sensíveis
+*.csv
+*.xlsx
+*.xls
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# Cache do Streamlit
+.streamlit/cache/
+
+# Arquivos de Sistema
+Thumbs.db
+.DS_Store
+
+# Backup
+*.bak
+*.backup
+*~
+
+# Temporários
+tmp/
+temp/
+*.tmp
+
+# Modelos de ML Salvos (se forem grandes)
+*.pkl
+*.pickle
+*.h5
+*.joblib
+
+# Configurações Locais
+config.local.py
+settings.local.py
